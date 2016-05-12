@@ -1,0 +1,37 @@
+rows = number of batteries + nodes;
+columns = number of batteries + nodes + 1;
+need to keep track of number of nodes and number of bateries;
+idea : make array of batteries and nodes;
+n1 n2 n3 i1 i2 i3 v(n for nodes i for bateries v for batery values)
+for bateries:
++1(n(0)) - 1(n(1)) v = batteries value n(0) conntect to necative end of battery
+for nodes
+	loop through resistors containing nodes
+	1/R (n(0)) - 1/r (n(1)) = v =0
+	batteries containing node
+	if(n(1) or connected to positive end) i(n=battery number) = 1
+	if(n(0) or connected to negative end) i(n=battery number) = -1
+solve
+
+//Done. 
+boolean contains
+char gettype()
+int get(int i) returns the value for that position
+int  value() return value;
+int position(int node) return the position 
+
+//User input is now done.
+user imput:
+(char)Type node[0] node[1] value
+//Should now also be done.
+if(node.contains(node[0])
+	node.add(node[0];
+if(node.contains(node[1])
+	node.add(node[1];
+
+//Should have taken care of this by hard coding it before.	
+boolean 0node =false;
+if(node[0]==0 ||node[1]==0){
+	0node = true;
+}
+
